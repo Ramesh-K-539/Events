@@ -1,0 +1,62 @@
+/* Write your CSS here */
+
+.registration-container {
+  height: 100%;
+  width: 30%;
+  padding: 60px;
+}
+
+.register-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+.no-event-text {
+  color: #64748b;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.registration-img {
+  height: 250px;
+  width: 250px;
+}
+
+.registration-description {
+  text-align: center;
+  color: #3a4b63;
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 34px;
+}
+
+.registration-button {
+  height: 40px;
+  width: 150px;
+  color: #ffffff;
+  background-color: #0967d2;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  align-self: center;
+  margin-top: 30px;
+}
+
+.registered-image {
+  height: 70px;
+  width: 70px;
+}
+
+.registered-text {
+  text-align: center;
+  color: #3a4b63;
+  font-size: 25px;
+  font-weight: 600;
+}

@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+  font-family: 'roboto';
+}
+
+body {
+  margin: 0px;
+}
+
+.event-app {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.event-item-container {
+  height: 100%;
+  width: 49%;
+  background-color: #475569;
+  padding: 30px;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.un-ordered-list {
+  padding-left: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
